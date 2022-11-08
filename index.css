@@ -1,0 +1,35 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 1000px;
+}
+
+.field {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputs {
+
+}
+
+.btn-sum {
+    padding-top: 100px;
+    display: flex;
+    
+} 
+
+#sum {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.decision {
+
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+}
