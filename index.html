@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,50 @@
     <title>Развивалка</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <div class="field">
-        <div class="inputs">
-            <input class="summand1" type="number">
-            <span>+</span>
-            <input class="summand2" type="number">
-            <span>=</span>
-            
-        </div>
-        <div class="btn-sum">
-            <button id="sum" class="sum1"></button>
-            <button id="sum" class="sum2"></button>
-            <button id="sum" class="sum3"></button>
-            <button id="sum" class="sum4"></button>
-        </div>
+    <div class="header">
+
     </div>
-    <div class="decision">
-        <button class="counting">Вычислить</button>
-    <div class="right"></div>
+    <div class="menu">
+        <div class="menu-title">
+            <ul class="menu-list">
+                <li class="summation operation" data-tab="tab-1">Сложение</li>
+                <li class="substraction operation" data-tab="tab-2">Вычитание</li>
+                <li class="multiply operation" data-tab="tab-3">Умножение</li>
+                <li class="division operation" data-tab="tab-4">Деление</li>
+            </ul>
+        </div>
+        <div class="menu-form"  id="tab-1">
+            <div class="field">
+                <div class="inputs">
+                    <input id="summand1" type="number">
+                    <span class="sign"></span>
+                    <input id="summand2" type="number">
+                    <span>=</span>
+
+                </div>
+                <div class="btn-sum">
+                    <button id="" class="sum1 sum"></button>
+                    <button id="" class="sum2 sum"></button>
+                    <button id="" class="sum3 sum"></button>
+                    <button id="" class="sum4 sum"></button>
+                </div>
+            </div>
+            <div class="decision">
+                <button class="counting">Вычислить</button>
+                <div class="right"></div>
+            </div>
+        </div>
+
+        
     </div>
-    
+
+
 
 
 
     <script src="main.js"></script>
 </body>
+
 </html>
